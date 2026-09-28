@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", Arial, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "DM Mono", monospace;
+}
+
+html {
+  font-size: calc(110% + 2px);
+  scroll-behavior: smooth;
+}
+body { margin: 0; color: #17141f; font-family: var(--font-sans); }
+em { color: #7562ed; font-family: var(--font-serif); font-style: normal; }
